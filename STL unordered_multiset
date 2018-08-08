@@ -1,0 +1,26 @@
+allows doublicates
+elements are not in order
+
+
+.................................................................
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// multiset
+	unordered_multiset<string> ms {"delhi","canada","london","venice","frankfurt"};
+	
+	for(auto i:ms)
+	cout<<i<<" ";
+	
+	ms.insert({"london","paris","vancouver","hawai"});
+	
+	cout<<"\nThe modified list is : ";
+	for(auto i:ms)
+	cout<<i<<" ";
+	
+	
+			
+}
