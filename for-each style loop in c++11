@@ -21,3 +21,25 @@ int main()
 	
 			
 }
+
+...................................................
+
+important point to mention here is that for-each loop works on a local copy
+so if you make any modificaations to it inside the loop it will not reflect in original 
+for that we use & side and pass the value by reference
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	vector <string> s{"win","patience","hard work","dediction","passion"};
+
+	for( auto& i:s)
+	{
+		i=i+"love";
+		cout<<i<<" ";
+	}
+	
+			
+}
