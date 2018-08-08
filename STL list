@@ -1,0 +1,24 @@
+it is implemented as doubly liked list
+advantage is quick insertion and deletion at any position when compared to deque and vector
+all you need to do is change the pointers
+
+Though random accessing is not provided. so in order to access an arbitrary element, linear time is required.
+
+.........................................
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// list , it is implemented as a doubly linked list
+	
+	list<char> l;
+	for(char c='a';c<='z';c++)
+	l.push_back(c);
+	
+	for(auto lt:l)
+	cout<<lt<<" ";
+	
+			
+} 
