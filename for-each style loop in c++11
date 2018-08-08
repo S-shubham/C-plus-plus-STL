@@ -1,0 +1,23 @@
+c++ 11 version provides its own for each type loop
+
+the syntax is :
+
+for( type i : coll)
+type is the type of collection on which the loop will run and coll is the name of the collection which is going to be processed
+
+ex:-
+
+.........................
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	vector <string> s{"win","patience","hard work","dediction","passion"};
+
+	for( auto i:s)
+	cout<<i<<" ";
+	
+			
+}
