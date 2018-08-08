@@ -1,0 +1,15 @@
+here we will see how to traverse the collecion using different loop styles
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	vector <string> s{"win","patience","hard work","dediction","passion"};
+
+	for(auto pos=begin(s), _end=end(s);pos!=_end;++pos)
+	cout<<*pos<<"  ";
+	
+			
+}
+
