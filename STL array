@@ -1,5 +1,7 @@
 it is of fixed size. so static array
 allowd access by index
+size needs to be specified at the beginning
+
 
 .....................................................
 #include<bits/stdc++.h>
