@@ -1,0 +1,26 @@
+It is implemented using binary tree which provide logarithmic search time
+the elements are always ordered in the multiset
+there can be doublicates in the multiset
+
+.......................................................................
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// multiset
+	multiset<string> ms {"delhi","canada","london","venice","frankfurt"};
+	
+	for(auto i:ms)
+	cout<<i<<" ";
+	
+	ms.insert({"london","paris","vancouver","hawai"});
+	
+	cout<<"\nThe modified list is : ";
+	for(auto i:ms)
+	cout<<i<<" ";
+	
+	
+			
+}
