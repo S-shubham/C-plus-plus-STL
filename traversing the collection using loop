@@ -13,3 +13,25 @@ int main()
 			
 }
 
+
+............................................................................................................
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// program to see the use of " initializer_list() "
+	
+	int arr[] {1,2,3,4,5};
+	int sum=0;
+	for(auto i:arr)
+	sum+=i;
+	
+	cout<<"\nThe sum is: "<<sum;
+	cout<<"\nMultiples of sum is : ";
+	for(auto itr:{sum*1,sum*2,sum*3,sum*4})
+	cout<<itr<<" ";
+	
+			
+}
