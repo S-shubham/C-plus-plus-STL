@@ -1,0 +1,20 @@
+it is applicable with unordered type only
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// multimap
+	
+	unordered_map<string,int> coll;
+	
+	coll["what"]=4;
+	coll["is"]=52;
+	coll["iin"]=21;
+	coll["see"]=12;
+	for(auto i:coll)
+	cout<<i.first<<" and "<<i.second<<"\n";
+	
+	
+			
+}
