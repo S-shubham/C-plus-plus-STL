@@ -1,0 +1,30 @@
+key/value pair
+is sorted
+allows quick search
+allows doublicates
+
+................................................
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// multimap
+	
+	multimap<int,string> coll;
+	
+	coll={ {1,"war"},
+			{15,"victory"},
+			{10,"win"},
+			{52,"haydes"},
+			{10,"achielies"}
+			
+	};
+	
+	for(auto i:coll)
+	cout<<i.first<<" and "<<i.second<<"\n";
+	
+	
+			
+}
